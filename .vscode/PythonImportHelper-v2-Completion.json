@@ -9,6 +9,15 @@
         "documentation": {}
     },
     {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
         "label": "admin",
         "importPath": "django.contrib",
         "description": "django.contrib",
@@ -73,15 +82,6 @@
         "documentation": {}
     },
     {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
         "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
@@ -135,6 +135,15 @@
         "description": "django",
         "isExtraImport": true,
         "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
         "documentation": {}
     },
     {
@@ -194,15 +203,6 @@
         "documentation": {}
     },
     {
-        "label": "pandas",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pandas",
-        "description": "pandas",
-        "detail": "pandas",
-        "documentation": {}
-    },
-    {
         "label": "settings",
         "importPath": "django.conf",
         "description": "django.conf",
@@ -252,174 +252,201 @@
         "documentation": {}
     },
     {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
         "label": "BASE_DIR",
         "kind": 5,
-        "importPath": "myproject.myproject.settings",
-        "description": "myproject.myproject.settings",
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
         "peekOfCode": "BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = '(jj3qu-adizsk#x_ii4v^*r3xoj&b9(e7#c*46%7jytx2_3s)p'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
-        "detail": "myproject.myproject.settings",
+        "detail": "myproject.settings",
         "documentation": {}
     },
     {
         "label": "SECRET_KEY",
         "kind": 5,
-        "importPath": "myproject.myproject.settings",
-        "description": "myproject.myproject.settings",
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
         "peekOfCode": "SECRET_KEY = '(jj3qu-adizsk#x_ii4v^*r3xoj&b9(e7#c*46%7jytx2_3s)p'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
-        "detail": "myproject.myproject.settings",
+        "detail": "myproject.settings",
         "documentation": {}
     },
     {
         "label": "DEBUG",
         "kind": 5,
-        "importPath": "myproject.myproject.settings",
-        "description": "myproject.myproject.settings",
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
         "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
-        "detail": "myproject.myproject.settings",
+        "detail": "myproject.settings",
         "documentation": {}
     },
     {
         "label": "ALLOWED_HOSTS",
         "kind": 5,
-        "importPath": "myproject.myproject.settings",
-        "description": "myproject.myproject.settings",
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
         "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]",
-        "detail": "myproject.myproject.settings",
+        "detail": "myproject.settings",
         "documentation": {}
     },
     {
         "label": "INSTALLED_APPS",
         "kind": 5,
-        "importPath": "myproject.myproject.settings",
-        "description": "myproject.myproject.settings",
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
         "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',",
-        "detail": "myproject.myproject.settings",
+        "detail": "myproject.settings",
         "documentation": {}
     },
     {
         "label": "MIDDLEWARE",
         "kind": 5,
-        "importPath": "myproject.myproject.settings",
-        "description": "myproject.myproject.settings",
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
         "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'myproject.urls'",
-        "detail": "myproject.myproject.settings",
+        "detail": "myproject.settings",
         "documentation": {}
     },
     {
         "label": "ROOT_URLCONF",
         "kind": 5,
-        "importPath": "myproject.myproject.settings",
-        "description": "myproject.myproject.settings",
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
         "peekOfCode": "ROOT_URLCONF = 'myproject.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
-        "detail": "myproject.myproject.settings",
+        "detail": "myproject.settings",
         "documentation": {}
     },
     {
         "label": "TEMPLATES",
         "kind": 5,
-        "importPath": "myproject.myproject.settings",
-        "description": "myproject.myproject.settings",
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
         "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
-        "detail": "myproject.myproject.settings",
+        "detail": "myproject.settings",
         "documentation": {}
     },
     {
         "label": "WSGI_APPLICATION",
         "kind": 5,
-        "importPath": "myproject.myproject.settings",
-        "description": "myproject.myproject.settings",
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
         "peekOfCode": "WSGI_APPLICATION = 'myproject.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/2.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),\n    }\n}\n# Password validation",
-        "detail": "myproject.myproject.settings",
+        "detail": "myproject.settings",
         "documentation": {}
     },
     {
         "label": "DATABASES",
         "kind": 5,
-        "importPath": "myproject.myproject.settings",
-        "description": "myproject.myproject.settings",
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
         "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
-        "detail": "myproject.myproject.settings",
+        "detail": "myproject.settings",
         "documentation": {}
     },
     {
         "label": "AUTH_PASSWORD_VALIDATORS",
         "kind": 5,
-        "importPath": "myproject.myproject.settings",
-        "description": "myproject.myproject.settings",
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
         "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
-        "detail": "myproject.myproject.settings",
+        "detail": "myproject.settings",
         "documentation": {}
     },
     {
         "label": "LANGUAGE_CODE",
         "kind": 5,
-        "importPath": "myproject.myproject.settings",
-        "description": "myproject.myproject.settings",
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
         "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/2.1/howto/static-files/\nSTATIC_URL = '/static/'",
-        "detail": "myproject.myproject.settings",
+        "detail": "myproject.settings",
         "documentation": {}
     },
     {
         "label": "TIME_ZONE",
         "kind": 5,
-        "importPath": "myproject.myproject.settings",
-        "description": "myproject.myproject.settings",
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
         "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/2.1/howto/static-files/\nSTATIC_URL = '/static/'",
-        "detail": "myproject.myproject.settings",
+        "detail": "myproject.settings",
         "documentation": {}
     },
     {
         "label": "USE_I18N",
         "kind": 5,
-        "importPath": "myproject.myproject.settings",
-        "description": "myproject.myproject.settings",
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
         "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/2.1/howto/static-files/\nSTATIC_URL = '/static/'",
-        "detail": "myproject.myproject.settings",
+        "detail": "myproject.settings",
         "documentation": {}
     },
     {
         "label": "USE_L10N",
         "kind": 5,
-        "importPath": "myproject.myproject.settings",
-        "description": "myproject.myproject.settings",
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
         "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/2.1/howto/static-files/\nSTATIC_URL = '/static/'",
-        "detail": "myproject.myproject.settings",
+        "detail": "myproject.settings",
         "documentation": {}
     },
     {
         "label": "USE_TZ",
         "kind": 5,
-        "importPath": "myproject.myproject.settings",
-        "description": "myproject.myproject.settings",
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
         "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/2.1/howto/static-files/\nSTATIC_URL = '/static/'",
-        "detail": "myproject.myproject.settings",
+        "detail": "myproject.settings",
         "documentation": {}
     },
     {
         "label": "STATIC_URL",
         "kind": 5,
-        "importPath": "myproject.myproject.settings",
-        "description": "myproject.myproject.settings",
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
         "peekOfCode": "STATIC_URL = '/static/'",
-        "detail": "myproject.myproject.settings",
+        "detail": "myproject.settings",
         "documentation": {}
     },
     {
         "label": "urlpatterns",
         "kind": 5,
-        "importPath": "myproject.myproject.urls",
-        "description": "myproject.myproject.urls",
+        "importPath": "myproject.urls",
+        "description": "myproject.urls",
         "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n]",
-        "detail": "myproject.myproject.urls",
+        "detail": "myproject.urls",
         "documentation": {}
     },
     {
         "label": "application",
         "kind": 5,
-        "importPath": "myproject.myproject.wsgi",
-        "description": "myproject.myproject.wsgi",
+        "importPath": "myproject.wsgi",
+        "description": "myproject.wsgi",
         "peekOfCode": "application = get_wsgi_application()",
-        "detail": "myproject.myproject.wsgi",
+        "detail": "myproject.wsgi",
         "documentation": {}
     },
     {
@@ -454,7 +481,7 @@
         "kind": 6,
         "importPath": "mysite.core.forms",
         "description": "mysite.core.forms",
-        "peekOfCode": "class BookForm(forms.ModelForm):\n    class Meta:\n        model = Book\n        fields = ('title', 'author', 'pdf','cover')",
+        "peekOfCode": "class BookForm(forms.ModelForm):\n    class Meta:\n        model = Book\n        fields = ('title', 'author', 'pdf','cover')\n        pr = pd.read_csv(\n            'media/Formulário de Avaliação de egressos dos cursos Técnicos Subsequentes do IFB (respostas).csv',\n             encoding='latin1',\n             parse_dates=['Carimbo de data/hora', 'Data de nascimento:'],\n             sep=';',\n             decimal=',',",
         "detail": "mysite.core.forms",
         "documentation": {}
     },
@@ -499,7 +526,7 @@
         "kind": 2,
         "importPath": "mysite.core.views",
         "description": "mysite.core.views",
-        "peekOfCode": "def upload(request):\n    context = {}\n    if request.method == 'POST':\n        uploaded_file = request.FILES['document']\n        fs = FileSystemStorage()\n        name = fs.save(uploaded_file.name, uploaded_file)\n        context['url'] = fs.url(name)\n    return render(request, 'upload.html', context)\ndef book_list(request):\n    pr = pd.read_csv(",
+        "peekOfCode": "def upload(request):\n    context = {}\n    if request.method == 'POST':\n        uploaded_file = request.FILES['document']\n        fs = FileSystemStorage()\n        name = fs.save(uploaded_file.name, uploaded_file)\n        context['url'] = fs.url(name)\n    return render(request, 'upload.html', context)\ndef book_list(request):\n    pr = pd.DataFrame(",
         "detail": "mysite.core.views",
         "documentation": {}
     },
@@ -508,7 +535,7 @@
         "kind": 2,
         "importPath": "mysite.core.views",
         "description": "mysite.core.views",
-        "peekOfCode": "def book_list(request):\n    pr = pd.read_csv(\n    'media/Formulário de Avaliação de egressos dos cursos Técnicos Subsequentes do IFB (respostas).csv',\n    encoding='latin1',\n    parse_dates=['Carimbo de data/hora', 'Data de nascimento:'],\n    sep=';',\n    decimal=',',\n    thousands='.'\n    )\n    print(pr.head()) ",
+        "peekOfCode": "def book_list(request):\n    pr = pd.DataFrame(\n    'media/Formulário de Avaliação de egressos dos cursos Técnicos Subsequentes do IFB (respostas).csv',\n    )\n    print(pr.head()) \n    books = Book.objects.all()\n    if request.method == 'POST':\n        form = BookForm(request.POST, request.FILES)\n        if form.is_valid():\n            form.save()",
         "detail": "mysite.core.views",
         "documentation": {}
     },
@@ -526,7 +553,7 @@
         "kind": 2,
         "importPath": "mysite.core.views",
         "description": "mysite.core.views",
-        "peekOfCode": "def delete_book(request, pk):\n    if request.method == 'POST':\n        book = Book.objects.get(pk=pk)\n        book.delete()\n    return redirect('book_list')\nclass BookListView(ListView):\n    model = Book\n    template_name = 'class_book_list.html'\n    context_object_name = 'books'\nclass UploadBookView(CreateView):",
+        "peekOfCode": "def delete_book(request, pk):\n    if request.method == 'POST':\n        book = Book.objects.get(pk=pk)\n        book.delete()\n    return redirect('book_list')\nclass BookListView(ListView):\n    model = Book\n    template_name = 'class_book_list.html'\n    context_object_name = 'books'",
         "detail": "mysite.core.views",
         "documentation": {}
     },
@@ -825,6 +852,33 @@
         "description": "venv.Scripts.activate_this",
         "peekOfCode": "sys.prefix = base",
         "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "pr",
+        "kind": 5,
+        "importPath": "video",
+        "description": "video",
+        "peekOfCode": "pr = pd.read_csv(\n    './Formulário de Avaliação de egressos dos cursos Técnicos Subsequentes do IFB (respostas).csv',\n    encoding='latin1',\n    parse_dates=['Carimbo de data/hora', 'Data de nascimento:'],\n    sep=';',\n    decimal=',',\n    thousands='.'\n)\npr.plot.scatter(x=\"Carimbo de data/hora\", y=\"Concluiu o seu curso no tempo previsto?\", alpha=0.5)\nx = [' ']",
+        "detail": "video",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "video",
+        "description": "video",
+        "peekOfCode": "x = [' ']\ny = ['qwr']\nst.title('Olá povo ')\nplt.scatter(pr)\nplt.show()\nst.pyplot(plt)",
+        "detail": "video",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "video",
+        "description": "video",
+        "peekOfCode": "y = ['qwr']\nst.title('Olá povo ')\nplt.scatter(pr)\nplt.show()\nst.pyplot(plt)",
+        "detail": "video",
         "documentation": {}
     }
 ]
