@@ -3,28 +3,20 @@
 
 {% block content %}
   <form method="post" enctype="multipart/form-data">
-    {% csrf_token %}
-   
+    {% csrf_token %} 
     <input type="hidden" name="csrfmiddlewaretoken" value="Q8d71q4TCTbHG3uVjxtCOXqaVxMqVX37pPWymG6K9m4BZVJYhZ9utVgxJ4QRNWF6">
     <input type="file" name="pdf" class="clearablefileinput" required="" id="id_pdf">
-
     <div id="organize">
-
       <select class="form-select" aria-label="Default select example" name="title" id="id_title">
         <option selected >SELECIONE</option>
         <option value="MEI">MEI</option>
         <option value="SUBSEQ">SUBSEQ</option>
         
       </select>
-    
-
-
     <input type="text" name="author" maxlength="100" class="textinput textInput form-control" required="" id="id_author" placeholder="ANO DE REFERÊNCIA (CONCLUSÃO)">
     </div>
-
-
-   
     <button type="submit" class="b">CARREGAR DADOS</button>
+    {% csrf_token %}
   </form>
 
 

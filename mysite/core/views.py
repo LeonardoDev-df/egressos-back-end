@@ -44,13 +44,6 @@ def upload(request):
 
 
 def book_list(request):
-    
-    pr = pd.DataFrame(
-    'media/Formulário de Avaliação de egressos dos cursos Técnicos Subsequentes do IFB (respostas).csv',
-    
-    )
-    print(pr.head()) 
-    
     books = Book.objects.all()
     if request.method == 'POST':
         form = BookForm(request.POST, request.FILES)
